@@ -1,0 +1,15 @@
+.mainContainer .contentContainer {
+  display: flex;
+  height: 100vh;
+  padding-top: 45px;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.mainContainer .pickContainer {
+  display: flex;
+  height: 100vh;
+  background-color: #f1faee;
+  align-items: center;
+  justify-content: center;
+}

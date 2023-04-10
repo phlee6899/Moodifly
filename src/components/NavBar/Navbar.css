@@ -1,0 +1,128 @@
+.navBar {
+  /* background: #1b263b; */
+  background: linear-gradient(90deg, #1b263b 0%, #4b6cb7 100%);
+  /* background: -webkit-linear-gradient(to right, #0f0f0f, #1d1d1d);
+  background: linear-gradient(to right, #0f0f0f, #1d1d1d); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  /* border-bottom: 2px solid white; */
+}
+
+.navBar .logoContainer {
+  width: 200px;
+}
+
+.navBar .logoContainer img {
+  width: 90%;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.navBar .inner {
+  width: 1080px;
+  height: 60px;
+  /* background-color: black; */
+  /* background-color: #e63946; */
+  display: flex;
+  align-items: center;
+}
+
+.navBar .inner .menu {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 60px;
+  /* color: white;
+  font-size: 19px;
+  font-weight: 550;
+  margin-left: 80px;
+  margin-bottom: 7px; */
+}
+
+.navBar .inner .menu ul {
+  display: flex;
+}
+
+.navBar .inner .menu .navLabel {
+  cursor: pointer;
+  margin-right: 85px;
+}
+
+.navBar .inner .menu .divide {
+  margin-right: 85px;
+}
+
+/* .navBar .inner .menu li::after {
+  content: "|";
+  margin-left: 60px;
+  margin-right: 60px;
+} */
+
+/*.navBar .inner .menu li:last-child::after {
+  content: "";
+  margin-left: 30px;
+  margin-right: 0px;
+} */
+
+.navBar .userSection {
+  margin-right: 40px;
+}
+
+.navBar .userSection #userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar .userSection .userName {
+  color: white;
+  font-weight: 500;
+}
+
+.navDesc {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 100%;
+  /* height: 138px; */
+  /* border-bottom-left-radius: 10px; */
+  /* border-bottom-right-radius: 10px; */
+  z-index: 10;
+  background: linear-gradient(90deg, #1b263b 0%, #4b6cb7 100%);
+  /* background-color: #e0e1dd; */
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  visibility: hidden;
+  padding-left: 50px;
+}
+
+.navDesc.show {
+  visibility: visible;
+}
+
+.navDesc .title {
+  color: white;
+  width: 70%;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.navDesc .mainDesc {
+  color: white;
+  width: 70%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}

@@ -1,0 +1,224 @@
+.styleButton {
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border: solid 1px white;
+  background-color: transparent;
+}
+
+.container {
+  padding-top: 70px;
+  background-color: #e0e1dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container .mainContainer {
+  max-width: 95%;
+  width: 95%;
+  background-color: #e0e1dd;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.container .mainContainer .textContainer {
+  background-color: #1d3557;
+  padding: 30px;
+  height: 530px;
+  margin-right: 30px;
+  border-top-right-radius: 50px;
+  width: 500px;
+  min-width: 500px;
+  min-height: 530px;
+}
+
+.container .mainContainer .textContainer .textDesc {
+  font-size: 27px;
+  line-height: 1.4;
+  color: #f1faee;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.container .mainContainer .textContainer .inputText {
+  box-sizing: border-box;
+  width: 100%;
+  height: 230px;
+  color: #64696e;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 10px;
+  word-break: break-word;
+  resize: none;
+  background-color: white;
+  padding: 20px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.container .mainContainer .textContainer .errorText {
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.container .mainContainer .textContainer .donutContainer {
+  margin-top: 30px;
+}
+
+.text {
+  display: block;
+  color: #7f8a96;
+  font-size: 0.938rem;
+  line-height: 1.6;
+  padding: 1rem 1.5rem;
+  height: 10rem;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #e7eaee;
+  resize: none;
+}
+
+.container .mainContainer .currentSongContainer {
+  background-color: #e9717f;
+  padding: 30px;
+  height: 530px;
+  margin-right: 30px;
+  border-top-right-radius: 50px;
+  width: 300px;
+  min-width: 300px;
+  min-height: 530px;
+}
+
+.optionLoop {
+  display: inline;
+  width: 200px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: white;
+  font-weight: 700;
+}
+
+.optionLoop p {
+  display: inline;
+  padding-right: 1.3px;
+}
+
+.optionLoop .x0 {
+  margin-top: 0.47px;
+}
+
+.container .mainContainer .currentSongContainer .songTitle {
+  font-size: 30px;
+  line-height: 1.4;
+  color: white;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.container .mainContainer .currentSongContainer .artistName {
+  font-size: 21px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-bottom: 10px;
+  font: 700;
+}
+
+.container .mainContainer .currentSongContainer .saveContainer {
+  right: 0px;
+}
+
+.container .mainContainer .currentSongContainer .saveContainer .material-icons {
+  box-sizing: border-box;
+  color: white;
+  font-size: 37px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.container .mainContainer .currentSongContainer .albumImageContainer {
+  margin-bottom: 15px;
+}
+
+.container .mainContainer .currentSongContainer .albumImageContainer {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container
+  .mainContainer
+  .currentSongContainer
+  .albumImageContainer
+  .albumImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  /* border: thin solid white; */
+}
+
+.radarSenti {
+  margin-top: 20px;
+  height: 300px !important;
+  width: 320px !important;
+}
+
+.container .mainContainer .radarContainer {
+  background-color: #3e9e73;
+  padding: 30px;
+  /* height: 60%; */
+  margin-right: 30px;
+  border-top-right-radius: 50px;
+  min-width: 300px;
+  min-height: 530px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .mainContainer .radarContainer .chartTitle {
+  font-size: 30px;
+  line-height: 1.4;
+  color: white;
+  font-weight: 900;
+  width: 100%;
+}
+
+.container .mainContainer .radarContainer .navButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.container .mainContainer .radarContainer .navButtons .optionButton {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+}
